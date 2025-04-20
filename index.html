@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <title>VAROVANIE!</title>
+    <style>
+        body {
+            background-color: black;
+            color: red;
+            text-align: center;
+            font-family: monospace;
+            padding: 50px;
+        }
+        h1 {
+            font-size: 3em;
+        }
+        h2 {
+            font-size: 2em;
+            margin-top: 30px;
+        }
+        p {
+            font-size: 1.2em;
+            margin: 20px 0;
+        }
+    </style>
+    <script>
+        setTimeout(() => {
+            alert("Zariadenie napadnuté! Prístup zablokovaný.");
+        }, 3000);
+
+        setTimeout(() => {
+            alert("Vaše dáta boli odoslané na vzdialený server.");
+        }, 6000);
+
+        setTimeout(() => {
+            alert("Toto zariadenie je teraz pod kontrolou.");
+        }, 9000);
+    </script>
+</head>
+<body>
+    <h1>!!! VAROVANIE !!!</h1>
+    <h2>Vaše zariadenie bolo napadnuté</h2>
+    <p>Systémová chyba: Zistený neoprávnený prístup</p>
+    <p>IP adresa odoslaná na server</p>
+    <p>Zariadenie bude automaticky reštartované</p>
+</body>
+</html>
